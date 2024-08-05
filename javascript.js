@@ -14,7 +14,14 @@ function getComputerChoice(){
 
 //Get human choice using prompt function//
 
+function getHumanChoice(){
+    let userChoice = prompt("Please choose your combatant.  Rock, Paper, or Scissors");
+    return userChoice;
+}
 //Declare player score variables//
+
+
+
 
 //wirte playRound function to play a single round of RPS//
 
